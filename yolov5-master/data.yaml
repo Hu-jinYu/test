@@ -1,0 +1,13 @@
+train: D:/BaiduNetdiskDownload/Final.v1i.yolov5pytorch/train/images
+val: D:/BaiduNetdiskDownload/Final.v1i.yolov5pytorch/valid/images
+test: D:/BaiduNetdiskDownload/Final.v1i.yolov5pytorch/test/images
+
+nc: 8
+#names: ['bus']
+names: ['Crosswalk', 'Stairs', 'bus', 'car', 'downstair', 'escalator', 'handrail', 'upstair']
+#roboflow:
+#  workspace: bensalemaya
+#  project: bus-detection-fiyhn
+#  version: 1
+#  license: CC BY 4.0
+#  url: https://universe.roboflow.com/bensalemaya/bus-detection-fiyhn/dataset/1
